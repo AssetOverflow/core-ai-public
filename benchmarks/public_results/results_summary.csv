@@ -1,0 +1,2 @@
+result_id,date,benchmark_family,metric,baseline_score,core_score,status,notes
+CORE-PUBLIC-0001,2026-05-05,repeatability,semantic_drift,TBD,TBD,placeholder,Sanitized public scaffold only
