@@ -6,7 +6,7 @@ The goal is to communicate seriousness without overstating evidence or disclosin
 
 ## Safe Current Claim
 
-CORE is a private AI research and engineering project focused on measuring and improving model mastery, retention, and transfer under controlled benchmark conditions.
+CORE is a private AI research and engineering project focused on helping AI models build deeper mastery, retain what they learn, and transfer knowledge to new problems.
 
 ## Public Research Claims
 
@@ -14,7 +14,7 @@ The following claims are acceptable public framing when supported by current int
 
 - CORE is designed to evaluate learning progression, not only static task performance.
 - CORE prioritizes structured mastery over shallow answer generation.
-- CORE uses controlled evaluation protocols to study knowledge acquisition and transfer.
+- CORE uses carefully defined evaluation protocols to study knowledge acquisition and transfer.
 - CORE public results are intentionally sanitized to preserve benchmark integrity and intellectual property boundaries.
 - CORE is being developed with an evidence-first engineering culture.
 
@@ -47,11 +47,15 @@ Use sober, testable wording.
 
 Prefer:
 
-> CORE is a private AI research and engineering project focused on measuring and improving model mastery, retention, and transfer under controlled benchmark conditions.
+> CORE is a private AI research and engineering project focused on helping AI models build deeper mastery, retain what they learn, and transfer knowledge to new problems.
 
 Avoid:
 
 > CORE is an experimental learning architecture.
+
+Avoid:
+
+> CORE improves AI models under controlled benchmark conditions.
 
 Prefer:
 
