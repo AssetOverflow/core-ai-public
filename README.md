@@ -1,6 +1,6 @@
 # CORE AI Public
 
-CORE is an experimental learning architecture focused on structured mastery, compositional reasoning, and benchmarkable knowledge acquisition.
+CORE is a private AI research and engineering project focused on measuring and improving model mastery, retention, and transfer under controlled benchmark conditions.
 
 This repository is the public-facing evidence and documentation surface for CORE. It is intentionally documentation-first and does **not** contain the private implementation, training system, model internals, benchmark generators, weights, proprietary curriculum construction, or patent-sensitive mechanisms.
 
@@ -12,7 +12,7 @@ The private engineering repository remains the source of truth for implementatio
 
 ## What CORE Is Exploring
 
-CORE investigates whether machine learning systems can be pushed toward deeper mastery through structured learning artifacts, disciplined evaluation, and compositional pressure rather than shallow exposure alone.
+CORE investigates whether AI models can be trained and evaluated in ways that reveal deeper mastery: durable learning, compositional reasoning, retention across boundaries, and transfer to structurally related tasks.
 
 Primary public research themes:
 
