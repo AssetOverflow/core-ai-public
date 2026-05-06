@@ -10,6 +10,11 @@ CORE is in active private development. Public materials in this repository are l
 
 The private engineering repository remains the source of truth for implementation work. This repository exists to make the public evidence trail readable, disciplined, and shareable without disclosing the engine.
 
+Latest public-safe update:
+
+- [May 6, 2026 Progress Update](docs/06_2026_05_06_progress_update.md)
+- [CORE Learning Readiness Evidence Summary — 2026-05-06](reports/CORE_Learning_Readiness_Evidence_2026_05_06.md)
+
 ## What CORE Is Exploring
 
 CORE investigates whether new model-architecture choices can improve reliability, reduce hallucination-like failure modes, support more durable knowledge retention, and make learned structure more reusable across tasks.
@@ -51,6 +56,7 @@ It does not mean the private benchmark generator, private tasks, scoring interna
 - sanitized public benchmark area
 - public disclosure and IP boundary
 - investor-safe technical brief scaffold
+- public-safe progress updates and evidence summaries
 
 ## What This Repository Does Not Contain
 
@@ -88,8 +94,10 @@ Start here:
 - [Public Claims](docs/03_public_claims.md)
 - [IP Boundary and Disclosure Policy](docs/04_ip_boundary.md)
 - [Results Template](docs/05_results_template.md)
+- [May 6, 2026 Progress Update](docs/06_2026_05_06_progress_update.md)
 - [Benchmark Area](benchmarks/README.md)
 - [Public Technical Brief](reports/CORE_Public_Technical_Brief_v0.1.md)
+- [Learning Readiness Evidence Summary — 2026-05-06](reports/CORE_Learning_Readiness_Evidence_2026_05_06.md)
 
 ## Public Communication Principle
 
