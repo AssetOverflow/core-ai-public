@@ -6,13 +6,14 @@ The goal is to communicate seriousness and promise without overstating evidence 
 
 ## Safe Current Claim
 
-CORE is a private AI model-architecture research and engineering project aimed at addressing core weaknesses in modern AI systems, including unreliable outputs, hallucinations, limited working context, weak long-term retention, high memory cost, and brittle transfer to new problems.
+CORE is a new AI model architecture under private development, aimed at addressing core weaknesses in modern AI systems, including unreliable outputs, hallucinations, limited working context, weak long-term retention, high memory cost, and brittle transfer to new problems.
 
-## Public Research Claims
+## Public Claims and Goals
 
-The following claims are acceptable public framing when supported by current internal evidence or clearly marked as project goals:
+The following claims are acceptable public framing when supported by current internal evidence or clearly marked as design goals:
 
-- CORE investigates new model-architecture choices for improving reliability, retention, and transfer.
+- CORE is a new model architecture under private development.
+- CORE is designed to investigate reliability, retention, and transfer in modern AI systems.
 - CORE is designed to evaluate learning progression, not only static task performance.
 - CORE prioritizes structured mastery over shallow answer generation.
 - CORE studies hallucination resistance, repeatability, memory/context efficiency, and durable knowledge retention.
@@ -55,11 +56,15 @@ Use sober, testable wording.
 
 Prefer:
 
-> CORE is a private AI model-architecture research and engineering project aimed at addressing core weaknesses in modern AI systems, including unreliable outputs, hallucinations, limited working context, weak long-term retention, high memory cost, and brittle transfer to new problems.
+> CORE is a new AI model architecture under private development, aimed at addressing core weaknesses in modern AI systems, including unreliable outputs, hallucinations, limited working context, weak long-term retention, high memory cost, and brittle transfer to new problems.
 
 Avoid:
 
 > CORE is an experimental learning architecture.
+
+Avoid:
+
+> CORE is just a research project.
 
 Avoid:
 
