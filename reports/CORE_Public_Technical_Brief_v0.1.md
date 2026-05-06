@@ -6,7 +6,7 @@ Repository: `AssetOverflow/core-ai-public`
 
 ## Executive Summary
 
-CORE is a private AI research and engineering project focused on measuring and improving model mastery, retention, and transfer under controlled benchmark conditions.
+CORE is a private AI research and engineering project focused on helping AI models build deeper mastery, retain what they learn, and transfer knowledge to new problems.
 
 This brief intentionally avoids implementation-level disclosure. It summarizes the public problem, project direction, evaluation posture, and evidence strategy.
 
@@ -20,7 +20,7 @@ CORE is designed around the hypothesis that learning systems should be evaluated
 
 At a public level, CORE investigates:
 
-- learning progression under controlled exposure
+- learning progression under carefully defined evaluation conditions
 - compositional reasoning from structured primitives
 - retention and transfer behavior
 - negative-control evaluation
