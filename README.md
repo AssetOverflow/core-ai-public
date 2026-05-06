@@ -1,6 +1,6 @@
 # CORE AI Public
 
-CORE is a private AI model-architecture research and engineering project aimed at addressing core weaknesses in modern AI systems: unreliable outputs, hallucinations, limited working context, weak long-term retention, high memory cost, and difficulty transferring knowledge to new problems.
+CORE is a new AI model architecture under private development, aimed at addressing core weaknesses in modern AI systems: unreliable outputs, hallucinations, limited working context, weak long-term retention, high memory cost, and difficulty transferring knowledge to new problems.
 
 This repository is the public-facing evidence and documentation surface for CORE. It is intentionally documentation-first and does **not** contain the private implementation, training system, model internals, benchmark generators, weights, proprietary curriculum construction, or patent-sensitive mechanisms.
 
