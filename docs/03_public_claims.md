@@ -6,7 +6,7 @@ The goal is to communicate seriousness without overstating evidence or disclosin
 
 ## Safe Current Claim
 
-CORE is an experimental learning architecture under active development, focused on structured mastery, compositional reasoning, and benchmarkable knowledge acquisition.
+CORE is a private AI research and engineering project focused on measuring and improving model mastery, retention, and transfer under controlled benchmark conditions.
 
 ## Public Research Claims
 
@@ -47,11 +47,11 @@ Use sober, testable wording.
 
 Prefer:
 
-> CORE is an experimental learning architecture under active development.
+> CORE is a private AI research and engineering project focused on measuring and improving model mastery, retention, and transfer under controlled benchmark conditions.
 
 Avoid:
 
-> CORE is a world-changing AGI breakthrough.
+> CORE is an experimental learning architecture.
 
 Prefer:
 
