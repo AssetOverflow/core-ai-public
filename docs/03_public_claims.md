@@ -2,18 +2,20 @@
 
 This document defines how CORE should be described publicly.
 
-The goal is to communicate seriousness without overstating evidence or disclosing private mechanisms.
+The goal is to communicate seriousness and promise without overstating evidence or disclosing private mechanisms.
 
 ## Safe Current Claim
 
-CORE is a private AI research and engineering project focused on helping AI models build deeper mastery, retain what they learn, and transfer knowledge to new problems.
+CORE is a private AI model-architecture research and engineering project aimed at addressing core weaknesses in modern AI systems, including unreliable outputs, hallucinations, limited working context, weak long-term retention, high memory cost, and brittle transfer to new problems.
 
 ## Public Research Claims
 
 The following claims are acceptable public framing when supported by current internal evidence or clearly marked as project goals:
 
+- CORE investigates new model-architecture choices for improving reliability, retention, and transfer.
 - CORE is designed to evaluate learning progression, not only static task performance.
 - CORE prioritizes structured mastery over shallow answer generation.
+- CORE studies hallucination resistance, repeatability, memory/context efficiency, and durable knowledge retention.
 - CORE uses carefully defined evaluation protocols to study knowledge acquisition and transfer.
 - CORE public results are intentionally sanitized to preserve benchmark integrity and intellectual property boundaries.
 - CORE is being developed with an evidence-first engineering culture.
@@ -23,6 +25,9 @@ The following claims are acceptable public framing when supported by current int
 The following should only be made with a linked public result summary:
 
 - CORE improved on a benchmark category.
+- CORE reduced a hallucination-like failure mode in a defined evaluation.
+- CORE improved repeatability or stability under a defined protocol.
+- CORE improved memory or context efficiency under a defined measurement.
 - CORE retained learned information across a process boundary.
 - CORE outperformed a baseline.
 - CORE passed a negative-control gate.
@@ -34,9 +39,12 @@ Do not publicly claim:
 
 - that CORE is AGI
 - that CORE has solved learning
+- that CORE has solved hallucinations globally
+- that CORE guarantees deterministic outputs in all settings
+- that CORE eliminates context limits
+- that CORE eliminates the need for training data
 - that CORE is conscious, sentient, or alive
 - that CORE universally outperforms frontier systems
-- that CORE eliminates the need for training data
 - that CORE is production-ready unless a release says so
 - that CORE is patent pending unless a filing has actually been made
 - that private methods are obvious from public materials
@@ -47,7 +55,7 @@ Use sober, testable wording.
 
 Prefer:
 
-> CORE is a private AI research and engineering project focused on helping AI models build deeper mastery, retain what they learn, and transfer knowledge to new problems.
+> CORE is a private AI model-architecture research and engineering project aimed at addressing core weaknesses in modern AI systems, including unreliable outputs, hallucinations, limited working context, weak long-term retention, high memory cost, and brittle transfer to new problems.
 
 Avoid:
 
@@ -55,7 +63,15 @@ Avoid:
 
 Avoid:
 
-> CORE improves AI models under controlled benchmark conditions.
+> CORE solves hallucinations, context windows, and AI memory.
+
+Prefer:
+
+> CORE studies reliability, hallucination resistance, retention, transfer, and memory/context efficiency through carefully defined evaluations.
+
+Avoid:
+
+> CORE fixes modern AI.
 
 Prefer:
 
@@ -75,9 +91,10 @@ Avoid:
 
 ## Investor-Safe Framing
 
-The strongest public posture is disciplined confidence:
+The strongest public posture is disciplined excitement:
 
 - clear problem
+- ambitious but bounded claim
 - clear evidence trail
 - clear IP boundary
 - clear limitations
