@@ -1,6 +1,6 @@
 # CORE AI Public
 
-CORE is a private AI research and engineering project focused on measuring and improving model mastery, retention, and transfer under controlled benchmark conditions.
+CORE is a private AI research and engineering project focused on helping AI models build deeper mastery, retain what they learn, and transfer knowledge to new problems.
 
 This repository is the public-facing evidence and documentation surface for CORE. It is intentionally documentation-first and does **not** contain the private implementation, training system, model internals, benchmark generators, weights, proprietary curriculum construction, or patent-sensitive mechanisms.
 
@@ -22,6 +22,12 @@ Primary public research themes:
 - compositional reasoning under controlled pressure
 - benchmark protocols that track learning progression
 - transparent limits around what is and is not yet proven
+
+## What "Controlled Benchmark" Means Here
+
+A controlled benchmark is an evaluation where the task family, baseline, scoring method, comparison condition, run metadata, and limitations are recorded clearly enough that results can be interpreted honestly.
+
+It does not mean the private benchmark generator, private tasks, scoring internals, or training mechanism are public.
 
 ## What This Repository Contains
 
