@@ -6,7 +6,7 @@ Repository: `AssetOverflow/core-ai-public`
 
 ## Executive Summary
 
-CORE is an experimental learning architecture focused on structured mastery, compositional reasoning, and benchmarkable knowledge acquisition.
+CORE is a private AI research and engineering project focused on measuring and improving model mastery, retention, and transfer under controlled benchmark conditions.
 
 This brief intentionally avoids implementation-level disclosure. It summarizes the public problem, project direction, evaluation posture, and evidence strategy.
 
