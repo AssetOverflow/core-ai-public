@@ -1,0 +1,14 @@
+{
+  "results": [
+    {
+      "result_id": "CORE-PUBLIC-0001",
+      "date": "2026-05-05",
+      "benchmark_family": "repeatability",
+      "metric": "semantic_drift",
+      "baseline_score": "TBD",
+      "core_score": "TBD",
+      "status": "placeholder",
+      "notes": "Sanitized public scaffold only"
+    }
+  ]
+}
