@@ -1,6 +1,6 @@
 # CORE AI Public
 
-CORE is a private AI research and engineering project focused on helping AI models build deeper mastery, retain what they learn, and transfer knowledge to new problems.
+CORE is a private AI model-architecture research and engineering project aimed at addressing core weaknesses in modern AI systems: unreliable outputs, hallucinations, limited working context, weak long-term retention, high memory cost, and difficulty transferring knowledge to new problems.
 
 This repository is the public-facing evidence and documentation surface for CORE. It is intentionally documentation-first and does **not** contain the private implementation, training system, model internals, benchmark generators, weights, proprietary curriculum construction, or patent-sensitive mechanisms.
 
@@ -12,13 +12,25 @@ The private engineering repository remains the source of truth for implementatio
 
 ## What CORE Is Exploring
 
-CORE investigates whether AI models can be trained and evaluated in ways that reveal deeper mastery: durable learning, compositional reasoning, retention across boundaries, and transfer to structurally related tasks.
+CORE investigates whether new model-architecture choices can improve reliability, reduce hallucination-like failure modes, support more durable knowledge retention, and make learned structure more reusable across tasks.
+
+Publicly, the project is concerned with several well-known pressure points in LLMs, SLMs, SSMs, and adjacent model families:
+
+- non-deterministic or unstable outputs
+- hallucinations and unsupported assertions
+- limited effective context
+- weak durable memory or retention
+- high memory and compute footprint
+- shallow pattern matching instead of structured mastery
+- brittle transfer to structurally related tasks
 
 Primary public research themes:
 
+- reliability and repeatability
+- hallucination resistance
+- memory and context efficiency
+- durable retention
 - structured mastery over surface memorization
-- curriculum-native learning artifacts
-- measurable knowledge acquisition
 - compositional reasoning under controlled pressure
 - benchmark protocols that track learning progression
 - transparent limits around what is and is not yet proven
@@ -81,9 +93,9 @@ Start here:
 
 ## Public Communication Principle
 
-Public credibility without enabling reproduction.
+Truthful excitement without enabling reproduction.
 
-CORE should be presented with technical seriousness, sober claims, and clear limits. The goal is not hype. The goal is evidence that can withstand scrutiny.
+CORE should be presented with technical seriousness, sober claims, and clear limits. The goal is not hype. The goal is to make the project legible, promising, and evidence-driven while preserving the private engine.
 
 ## Contact
 
