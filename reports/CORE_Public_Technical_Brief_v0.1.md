@@ -6,23 +6,36 @@ Repository: `AssetOverflow/core-ai-public`
 
 ## Executive Summary
 
-CORE is a private AI research and engineering project focused on helping AI models build deeper mastery, retain what they learn, and transfer knowledge to new problems.
+CORE is a new AI model architecture under private development, aimed at addressing core weaknesses in modern AI systems: unreliable outputs, hallucinations, limited working context, weak long-term retention, high memory cost, and difficulty transferring knowledge to new problems.
 
 This brief intentionally avoids implementation-level disclosure. It summarizes the public problem, project direction, evaluation posture, and evidence strategy.
 
 ## Problem
 
-AI systems can achieve strong performance on static benchmarks while still leaving open questions about durable understanding, controlled transfer, retention, and mastery of fundamentals.
+Modern LLMs, SLMs, SSMs, and adjacent model families can achieve strong performance while still showing familiar weaknesses:
 
-CORE is designed around the hypothesis that learning systems should be evaluated by progression toward structured mastery, not only by isolated answer quality.
+- unstable or non-repeatable outputs
+- hallucinations and unsupported assertions
+- limited effective context
+- weak durable memory and retention
+- high memory and compute footprint
+- brittle transfer to new but related problems
+- shallow pattern completion instead of structured mastery
+
+These weaknesses matter because they limit trust, reliability, deployability, and cost efficiency.
 
 ## CORE Direction
 
-At a public level, CORE investigates:
+CORE investigates whether new model-architecture choices can improve reliability, reduce hallucination-like failure modes, support more durable knowledge retention, and make learned structure more reusable across tasks.
 
-- learning progression under carefully defined evaluation conditions
+At a public level, CORE studies:
+
+- reliability and repeatability
+- hallucination resistance
+- memory and context efficiency
+- durable retention
+- transfer to structurally related tasks
 - compositional reasoning from structured primitives
-- retention and transfer behavior
 - negative-control evaluation
 - benchmark evidence that resists shallow interpretation
 
@@ -40,7 +53,7 @@ Public evaluation summaries should report:
 - limitations
 - disclosure classification
 
-Private benchmark generators, task corpora, scoring internals, and learning traces are not published.
+Private benchmark generators, task corpora, scoring internals, model internals, training mechanisms, and learning traces are not published.
 
 ## Current Public Status
 
@@ -70,6 +83,6 @@ The following are intentionally withheld:
 
 ## Communication Standard
 
-CORE should be presented through sober, testable claims. Public materials should make clear what is proven, what is preliminary, and what is withheld.
+CORE should be presented through disciplined excitement: ambitious, truthful, evidence-driven, and clear about what remains private or preliminary.
 
 Public credibility without enabling reproduction.
