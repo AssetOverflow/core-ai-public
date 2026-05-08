@@ -2,69 +2,73 @@
 
 Disclosure label: `PUBLIC_SUMMARY_ONLY`
 
-CORE supports granular, operator-driven control over model "postures" and "traits" through an immutable configuration layer. This document provides high-level examples of sanitized "Persona Profiles" used in the private engineering environment.
+CORE privately studies controlled response-profile behavior and operator-directed interaction styles. This document provides illustrative, non-enabling examples of public-safe profile framing.
 
-## The Trait Architecture
+The examples below are conceptual descriptions only. They do not disclose the internal implementation, control surface, validation system, configuration schema, parameter mappings, or evaluation methods used in the private engineering environment.
 
-Unlike traditional "system prompts," CORE traits are mapped to internal architectural parameters that govern the engine's cognitive focus, articulation momentum, and epistemic posture.
+## Public Position
 
-### Key Meta-Parameters
-- **Confidence**: Governs the energy threshold for assertions in expert domains.
-- **Precision**: Calibrates the brevity and technical density of the articulation.
-- **Curiosity**: Influences the exploration bias during multi-path reasoning.
-- **Humility**: Adjusts the sensitivity to self-correction and external verification.
+CORE may publicly discuss the goal of:
 
----
+- consistent interaction styles,
+- stable technical posture,
+- controllable response emphasis,
+- safe personalization boundaries,
+- preservation of evaluation integrity.
 
-## Example Profile: Scholar
+Public materials should avoid disclosing:
 
-**Description**: High-precision, research-focused, calibrated for academic rigor and formal discourse.
-
-### Character Traits
-- **Confidence**: High (0.85)
-- **Precision**: Very High (0.90)
-- **Curiosity**: High (0.80)
-- **Humility**: Balanced (0.60)
-
-### Cognitive Focus
-- **Formal Logic**: Primary (Weight: 1.5)
-- **Classical Physics**: Secondary (Weight: 1.2)
-
-### Articulation Posture
-- **Register**: Formal/Academic
-- **Structural Flow**: High momentum; low verbosity.
-- **Epistemic Posture**: Cautious; high sensitivity to source-trust weighting.
+- internal parameter names,
+- numeric tuning values,
+- weighting systems,
+- validation-path design,
+- internal stability logic,
+- implementation-specific terminology,
+- architectural assumptions tied to response behavior.
 
 ---
 
-## Example Profile: Teacher
+## Example Public Profile: Scholar
 
-**Description**: Explanatory, patient, focused on clarity and step-by-step conceptual transfer.
+Description:
 
-### Character Traits
-- **Confidence**: Balanced (0.70)
-- **Precision**: Moderate (0.60)
-- **Curiosity**: Very High (0.90)
-- **Humility**: High (0.80)
+A research-oriented profile focused on precision, careful reasoning, and technical clarity.
 
-### Cognitive Focus
-- **Epistemology**: Primary (Weight: 1.4)
-- **Foundational Mathematics**: Secondary (Weight: 1.3)
+Illustrative characteristics:
 
-### Articulation Posture
-- **Register**: Instructional/Accessible
-- **Structural Flow**: Low momentum; high verbosity for explanatory depth.
-- **Epistemic Posture**: Open; focused on building verification chains for the learner.
+- formal communication style,
+- emphasis on verification and evidence,
+- preference for concise technical explanation,
+- cautious handling of uncertain claims.
 
 ---
 
-## Performance and Stability
+## Example Public Profile: Teacher
 
-Every trait configuration passes through a **Validation Logic** layer to ensure that personalization does not violate the engine's core stability or geometric invariants.
+Description:
 
-- **Constraint Violation Rate**: 0.0% across all tested profiles.
-- **Trait Expression Fidelity**: High (>94%) in shadow-integration tests.
+An instructional profile focused on clarity, explanation quality, and step-by-step conceptual transfer.
+
+Illustrative characteristics:
+
+- accessible communication style,
+- emphasis on conceptual understanding,
+- willingness to expand intermediate reasoning,
+- stronger explanatory pacing for learners.
+
+---
+
+## Stability and Safety Boundary
+
+Any private personalization or response-profile experimentation must preserve:
+
+- evaluation integrity,
+- system safety constraints,
+- disclosure boundaries,
+- reliability-review discipline.
+
+Public reports should avoid numeric performance claims or descriptions of internal control mechanisms unless specifically approved through legal and IP review.
 
 ## Disclosure Reminder
 
-The profiles described here are high-level declarations. The specific mapping of these traits to internal manifold parameters, energy thresholds, and discharge biases is withheld to protect CORE's proprietary cognitive architecture.
+This document intentionally avoids implementation-level detail. Internal configuration logic, validation systems, response-control mechanisms, and related engineering details remain private.
