@@ -12,10 +12,10 @@ This report is a sanitized public summary of private engineering progress. It is
 | Course pilot runner | Implemented privately | A tiny deterministic course pilot exercises pretest, artifact write, retrieval, runtime-context projection, posttest, and report generation. | Narrow pilot proof |
 | Retrieval traceability | Implemented privately | Retrieved context IDs are checked against persisted learning artifact IDs. | Traceability proof |
 | Pending/deleted/wrong-course controls | Implemented privately | Invalid or unapproved artifacts are designed not to count as learning evidence. | Fail-closed control proof |
-| Language-learning readiness gate | Implemented privately | A first multilingual readiness gate exists around a small English/Hebrew/Greek concept family. | Early readiness proof |
-| Language-scoped retrieval | Implemented privately | Retrieval is scoped by language and should not silently fall back across languages. | Isolation proof |
-| Unicode-aware normalization checks | Implemented privately | Hebrew and Greek normalization checks are included in the readiness gate. | Normalization proof |
-| False-friend/alignment safety | Implemented privately | Cross-language alignment warnings and false-friend controls are part of the readiness direction. | Safety-control proof |
+| Language-learning readiness gate | Implemented privately | A first multilingual readiness gate exists around a small primary language concept family (modern/ancient variants). | Early readiness proof |
+| Language-scoped retrieval | Implemented privately | Retrieval is scoped by linguistic variant and should not silently fall back across variants. | Isolation proof |
+| Multi-script normalization checks | Implemented privately | Normalization checks for multiple script families are included in the readiness gate. | Normalization proof |
+| False-friend/alignment safety | Implemented privately | Cross-linguistic alignment warnings and false-friend controls are part of the readiness direction. | Safety-control proof |
 
 ## What Was Proven Privately
 

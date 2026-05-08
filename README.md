@@ -12,6 +12,8 @@ The private engineering repository remains the source of truth for implementatio
 
 Latest public-safe update:
 
+- [May 8, 2026 Progress Update](docs/07_2026_05_08_progress_update.md)
+- [CORE Structural Articulation and Consistency Evidence — 2026-05-08](reports/CORE_Structural_Articulation_and_Consistency_2026_05_08.md)
 - [May 6, 2026 Progress Update](docs/06_2026_05_06_progress_update.md)
 - [CORE Learning Readiness Evidence Summary — 2026-05-06](reports/CORE_Learning_Readiness_Evidence_2026_05_06.md)
 
@@ -94,9 +96,11 @@ Start here:
 - [Public Claims](docs/03_public_claims.md)
 - [IP Boundary and Disclosure Policy](docs/04_ip_boundary.md)
 - [Results Template](docs/05_results_template.md)
-- [May 6, 2026 Progress Update](docs/06_2026_05_06_progress_update.md)
-- [Benchmark Area](benchmarks/README.md)
-- [Public Technical Brief](reports/CORE_Public_Technical_Brief_v0.1.md)
+- [May 8, 2026 Progress Update](docs/07_2026_05_08_progress_update.md)
+- [CORE Structural Articulation and Consistency Evidence — 2026-05-08](reports/CORE_Structural_Articulation_and_Consistency_2026_05_08.md)
+- [CORE Semantic Polarity and Synonym Stability Evidence — 2026-05-08](reports/CORE_Semantic_Polarity_and_Synonym_Stability_Evidence_2026_05_08.md)
+- [Trait Configuration Examples](docs/08_trait_configuration_examples.md)
+- [CORE Curriculum Roadmap](docs/09_curriculum_roadmap.md)
 - [Learning Readiness Evidence Summary — 2026-05-06](reports/CORE_Learning_Readiness_Evidence_2026_05_06.md)
 
 ## Public Communication Principle

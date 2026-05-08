@@ -43,7 +43,7 @@ Public interpretation:
 
 ## Language-Learning Readiness
 
-A private Language Mastery Readiness Gate v0 was added around a small covenant-language concept family across English, Hebrew, and Greek.
+A private Language Mastery Readiness Gate v0 was added around a small primary language family across modern and ancient high-morphology variants.
 
 Publicly shareable characteristics:
 
