@@ -2,13 +2,25 @@
 
 > "We have mistaken inherited abstractions for reality."
 
-CORE is an AI architecture project under active development.
+CORE is an AI architecture research project under active early-stage development.
 
 The implementation is maintained privately. This repository is the public documentation and project status surface.
 
 ---
 
-## Status
+## What CORE Is
+
+CORE is a new approach to AI architecture. It is not a fine-tuned version of an existing model, not a wrapper around a commercial API, and not a prompt-engineering framework.
+
+It is a ground-up architectural project aimed at properties that current AI systems do not reliably have: durable correction, long-horizon memory, and structural coherence over time.
+
+The work is early-stage. The foundation has been established and is under active development. There is significant engineering ahead before the system is capable of general use.
+
+---
+
+## Development Status
+
+CORE is in active early-to-mid development. Foundational architectural components have been designed and implemented. The system is not yet a trained model and has not yet demonstrated end-to-end capability.
 
 | Phase | Status |
 |---|---|
@@ -19,17 +31,32 @@ The implementation is maintained privately. This repository is the public docume
 | Phase 5 | ✅ Complete |
 | Phase 6 | ✅ Complete |
 | Phase 7 | 🟡 In Progress |
+| Phase 8+ | ⏳ Not Started |
+
+Completed phases represent foundational infrastructure work. They are not a trained model, a capable demo, or a finished product. Substantial phases remain.
 
 ---
 
-## This Repository
+## What Has Been Built
 
-This public repository contains:
-- Project status and phase history
-- Governance and contribution guidelines
-- Security and IP notices
+- A novel representational foundation for knowledge and memory
+- A structured memory system organized across distinct layers
+- A correction mechanism designed to be structurally permanent
+- A deterministic language processing pipeline
+- A curriculum framework for structured knowledge acquisition
+- A safety gate system for the query-response pipeline
 
-It does **not** contain source code, architectural specifications, mathematical foundations, benchmark methodology, training logic, or any implementation detail.
+None of these components have yet been evaluated on general tasks. They represent architectural infrastructure, not demonstrated capability.
+
+---
+
+## What Has Not Been Built Yet
+
+- A trained model with general capability
+- A public demo
+- End-to-end evaluation results
+- Reproduced benchmarks
+- A developer-accessible interface
 
 ---
 
@@ -38,3 +65,12 @@ It does **not** contain source code, architectural specifications, mathematical 
 - Watch this repo for status updates and documentation releases.
 - Open an issue to ask questions or propose collaboration.
 - Credentialed reviewers (grant committees, institutional partners, IP counsel) may request technical documentation via [SECURITY.md](SECURITY.md).
+
+---
+
+## Documentation
+
+- [MANIFESTO](docs/MANIFESTO.md) — purpose and design principles
+- [SECURITY.md](SECURITY.md) — IP notice and reviewer access
+- [CHANGELOG](CHANGELOG.md) — phase history
+- [CONTRIBUTING](CONTRIBUTING.md) — contribution guidelines
