@@ -62,8 +62,15 @@ None of these components have yet been evaluated on general tasks. They represen
 
 ## Recent Progress
 
-Recent private prototype work has locally verified a first conversational response path with structured evidence generation. Public documentation is being updated to reflect progress while preserving IP-sensitive implementation details.
+### Current Private Prototype Status
 
+Recent private development has verified a focused conversational quality milestone. The private prototype can generate bounded conversational responses, emit public-safe evidence metadata, run deterministic response-quality checks, preserve timestamped quality reports, and extract reviewable correction candidates from failed checks.
+
+The latest internal milestone run passed the focused quality gate. Public documentation intentionally omits implementation details, internal schemas, runtime identifiers, source code, and patent-sensitive mechanisms.
+
+- [Conversational Quality Milestone](docs/progress/M_CHAT_QUALITY_MILESTONE.md)
+- [Evidence and Verification Posture](docs/progress/EVIDENCE_AND_VERIFICATION_POSTURE.md)
+- [Safe Observability and Review Boundary](docs/progress/SAFE_OBSERVABILITY_AND_REVIEW_BOUNDARY.md)
 - [May 9, 2026 Progress Update](docs/10_2026_05_09_progress_update.md)
 - [Conversational Runtime Milestone](docs/progress/CONVERSATIONAL_RUNTIME_MILESTONE.md)
 - [Evidence and Traceability](docs/progress/EVIDENCE_AND_TRACEABILITY.md)
