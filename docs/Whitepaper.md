@@ -1,71 +1,40 @@
-# CORE Whitepaper: Topological Intelligence
-
-**Conceptual Overview — Architecture and Motivation**
+# CORE Whitepaper
 
 > The full Whitepaper, including mathematical foundations and formal definitions, is available to credentialed reviewers upon request. See [SECURITY.md](../SECURITY.md).
 
 ---
 
-## The Problem with Flat Intelligence
+## The Problem
 
-Every major language model deployed today shares a structural assumption: knowledge is a matrix of weights over tokens. This assumption has produced remarkable engineering results, but it carries three irreducible failure modes:
+Every major AI architecture deployed today shares a foundational assumption about how knowledge is represented and how computation proceeds. That assumption has produced capable systems, but it carries failure modes that are structural — not incidental — and therefore cannot be fixed by scaling alone.
 
-1. **Correction is statistical, not structural.** Fine-tuning a model to correct a hallucination changes the weight distribution. The next similar query might still produce the hallucination, because no attractor was annihilated — only nudged.
+The three irreducible failure modes:
 
-2. **Context is a fixed-length window.** Attention mechanisms require every token to attend to every other token. Extending the window grows memory quadratically. The model has no native mechanism for truly long-range memory.
+1. **Corrections do not hold.** Correcting a model's behavior changes statistical tendencies. The same error can resurface under slightly different phrasing because the correction was applied at the output surface, not at the structure that produces the output.
 
-3. **Representation is flat.** A token embedding does not distinguish between an entity, a relation, an assertion, and a modality. All are points in the same undifferentiated high-dimensional space.
+2. **Memory is bounded and flat.** Existing mechanisms for extending context grow in cost as context grows. There is no native architecture for truly long-range, structured memory.
+
+3. **Representation is undifferentiated.** A named entity, a relational operator, an assertion, and a contextual modifier are all represented as points in the same undifferentiated space. The architecture cannot enforce that these are structurally different kinds of things.
 
 ---
 
 ## The CORE Proposal
 
-CORE proposes that intelligence is not fundamentally a statistical process over tokens. It is a **topological process over a structured field**.
+CORE proposes that these are not engineering gaps to be patched. They are consequences of a foundational representational choice, and fixing them requires a different representational foundation.
 
-The three structural commitments:
+The full Whitepaper defines that foundation formally. This public document states the goals.
 
-### 1. Geometric Grounding
-Knowledge is represented as a multivector field in Clifford geometric algebra. Each element has a grade encoding its cognitive type: scalar (assertion), vector (entity), bivector (relation), trivector (modality). The geometry is not a compression — it is the representation.
+CORE is designed so that:
 
-### 2. Three-Manifold Memory
-Memory is organized into three manifolds with distinct curvatures:
-- **Transient (K=0):** Fast working surface for current reasoning.
-- **Episodic (K=-1):** Hyperbolic long-horizon memory with exponentially growing capacity.
-- **Semantic (K=+1):** Spherical closed space for universal archetypes and laws.
-
-Information moves between manifolds through structured geometric operations, not through learned lookup tables.
-
-### 3. Propagation and Dual-Correction
-Computation is field propagation, not matrix multiplication. Every forward propagation operator has a conjugate correction operator. Corrections are phase cancellations — geometric and permanent, not statistical and reversible.
+- Corrections are applied at the structural level, not the output surface. A correction that holds is a structural commitment, not a statistical nudge.
+- Memory is organized into distinct layers with distinct properties, matched to distinct cognitive timescales.
+- Representation preserves the structural differences between kinds of knowledge — entities, relations, assertions, and modalities are not collapsed into a common undifferentiated space.
+- Computation is governed by operators that have principled corrective counterparts — not as an add-on, but as a design requirement.
 
 ---
 
-## Architectural Novelty
+## Novelty
 
-| Property | Transformer | CORE |
-|---|---|---|
-| Memory type | KV cache (flat, bounded) | Hyperbolic attractor field (curved, effectively unbounded) |
-| Correction mechanism | Fine-tuning (statistical) | Phase cancellation (geometric, permanent) |
-| Representation | Token embedding (ungraded) | Clifford multivector (graded by cognitive type) |
-| Computation | Attention (all-to-all) | Propagation (field wave through manifold) |
-| Context | Fixed window | Three-manifold hierarchy with vault reconstruction |
+CORE is not a variant of any existing architecture. It is motivated by a different theory of what representation and computation should be, derived from mathematical structures that have not previously been applied as the primary substrate for a language model.
 
----
-
-## Mathematical Foundations
-
-The mathematical foundations — including the manifold metric definitions, Clifford primitive specifications, propagation operator proofs, and correction operator derivations — are documented in the full Whitepaper and Yellowpaper.
-
-These documents are available to credentialed reviewers. See [SECURITY.md](../SECURITY.md) for access.
-
----
-
-## Why This Architecture Is Novel
-
-No prior language model architecture uses:
-1. A graded Clifford multivector field as the primary representation
-2. A three-manifold hierarchy with distinct curvatures for distinct memory timescales
-3. Phase-cancellation as the correction mechanism
-4. A deterministic articulation pipeline with formal grade-purity invariants
-
-CORE is not a variant of the transformer. It is a distinct architecture motivated by a different theory of what intelligence is.
+The full Whitepaper documents the formal basis for these claims. Access is available to credentialed reviewers via [SECURITY.md](../SECURITY.md).
