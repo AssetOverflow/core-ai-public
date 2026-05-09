@@ -1,114 +1,76 @@
-# CORE AI Public
+# CORE: Continuous Orthogonal Resonance Engine
 
-CORE is a new AI model architecture under private development, aimed at addressing core weaknesses in modern AI systems: unreliable outputs, hallucinations, limited working context, weak long-term retention, high memory cost, and difficulty transferring knowledge to new problems.
+> "Memory is not storage; it is a topological field. Structure, relation, propagation, duality, and reconstruction."
 
-This repository is the public-facing evidence and documentation surface for CORE. It is intentionally documentation-first and does **not** contain the private implementation, training system, model internals, benchmark generators, weights, proprietary curriculum construction, or patent-sensitive mechanisms.
+CORE is a post-Transformer AI architecture that replaces flat, statistical token-weight matrices with a continuous **Clifford multivector field** embedded in a **Hyperbolic Atlas** — a temporal fiber bundle of hyperbolic manifolds. It is designed to serve **CORE-CA (Cognitive Apprenticeship)**: a geometrically grounded, corrigible mind that can be corrected once and remember that correction forever.
+
+---
 
 ## Current Status
 
-CORE is in active private development. Public materials in this repository are limited to non-enabling descriptions, sanitized benchmark/evaluation summaries, and investor-safe technical framing.
+| Phase | Scope | Status |
+|---|---|---|
+| Phase 1 | Conjugate operator, hyperbolic routing, closed cognitive loop wiring | ✅ Complete |
+| Phase 2 | Attractor dynamics, topological coordinates, grade decomposition, ingestion pipeline | ✅ Complete |
+| Phase 3 | Bifurcation engine, conjugate unlearning, grade safety enforcement, OS integration | ✅ Complete |
+| Phase 4 | Dynamic rotor generation, MLX-LM bridge, Poincaré visualisation, scaling benchmarks | ✅ Complete |
+| Phase 5 | Autonomous learning loop, closed cognitive loop wiring | ✅ Complete |
+| Phase 6 (Logos Readiness) | Deterministic 8-module pipeline, zero-copy basis injection, geometric invariant registry, query guards | ✅ Complete |
+| Phase 7 (Wiring) | Thread live query guards into main dispatch loop | 🟡 Next |
 
-The private engineering repository remains the source of truth for implementation work. This repository exists to make the public evidence trail readable, disciplined, and shareable without disclosing the engine.
+---
 
-Latest public-safe update:
+## The Paradigm Shift: Topological Intelligence
 
-- [May 8, 2026 Progress Update](docs/07_2026_05_08_progress_update.md)
-- [CORE Structural Articulation and Consistency Evidence — 2026-05-08](reports/CORE_Structural_Articulation_and_Consistency_2026_05_08.md)
-- [May 6, 2026 Progress Update](docs/06_2026_05_06_progress_update.md)
-- [CORE Learning Readiness Evidence Summary — 2026-05-06](reports/CORE_Learning_Readiness_Evidence_2026_05_06.md)
+CORE discards the amnesiac, open-loop processing of conventional LLMs in favour of a **stratified geometric workspace** governed by manifold physics.
 
-## What CORE Is Exploring
+1. **Topology over storage** — Knowledge is stabilised as geometric standing waves (attractors), not as flat token weights or key-value caches.
+2. **Propagation and correction** — Computation is wave propagation through multivectors, paired with its corrective dual via phase-conjugate updates.
+3. **Dual-correction** — Every forward operator has a corrective conjugate counterpart. Corrections propagate geometrically; they do not mutate records.
 
-CORE investigates whether new model-architecture choices can improve reliability, reduce hallucination-like failure modes, support more durable knowledge retention, and make learned structure more reusable across tasks.
+---
 
-Publicly, the project is concerned with several well-known pressure points in LLMs, SLMs, SSMs, and adjacent model families:
+## Three-Manifold Architecture
 
-- non-deterministic or unstable outputs
-- hallucinations and unsupported assertions
-- limited effective context
-- weak durable memory or retention
-- high memory and compute footprint
-- shallow pattern matching instead of structured mastery
-- brittle transfer to structurally related tasks
+| Manifold | Geometry | Curvature | Role |
+|---|---|---|---|
+| **Transient Surface M_W** | Euclidean | K = 0 | Fast working memory; short-lived reasoning fluid |
+| **Episodic Volume M_E** | Hyperbolic | K = −1 | Long-horizon history; effectively infinite context |
+| **Semantic Core M_S** | Spherical | K = +1 | Collapsed universal rules and archetypes |
 
-Primary public research themes:
+---
 
-- reliability and repeatability
-- hallucination resistance
-- memory and context efficiency
-- durable retention
-- structured mastery over surface memorization
-- compositional reasoning under controlled pressure
-- benchmark protocols that track learning progression
-- transparent limits around what is and is not yet proven
+## CORE-CA: Cognitive Apprenticeship
 
-## What "Controlled Benchmark" Means Here
+CORE-CA teaches the engine like an apprentice in four geometric stages:
 
-A controlled benchmark is an evaluation where the task family, baseline, scoring method, comparison condition, run metadata, and limitations are recorded clearly enough that results can be interpreted honestly.
+- **Stage 1 — Ontological Grounding** — Curated unigrams; geodesic separation anchors concepts in M_E.
+- **Stage 2 — Syntactic Scaffolding** — Structured triples train relational operators mapping subjects to objects.
+- **Stage 3 — Socratic Conjugation** — Conjugate anti-nodes annihilate hallucinations via phase cancellation.
+- **Stage 4 — Abstract Consolidation** — Offline epochs collapse stable paths into M_S, distilling experience into archetypes.
 
-It does not mean the private benchmark generator, private tasks, scoring internals, or training mechanism are public.
+---
 
-## What This Repository Contains
+## Documentation
 
-- public project overview
-- high-level problem framing
-- public claims boundary
-- evaluation philosophy
-- benchmark result templates
-- sanitized public benchmark area
-- public disclosure and IP boundary
-- investor-safe technical brief scaffold
-- public-safe progress updates and evidence summaries
+- **[MANIFESTO](docs/MANIFESTO.md)** — purpose, topology of truth, Logos-first ethos
+- **[Whitepaper Overview](docs/Whitepaper.md)** — the "why": topological intelligence and architectural laws
+- **[Yellowpaper Overview](docs/Yellowpaper.md)** — the "how": geometric foundations and manifold physics (high-level)
+- **[Architecture Overview](docs/Architecture_Overview.md)** — component hierarchy and data flow
+- **[Query Guards](docs/Query_Guards_Public.md)** — the five pipeline safety gates: names, purposes, failure categories
+- **[Benchmarks](docs/Benchmarks_Public.md)** — 8-suite benchmark names and what each measures
+- **[Roadmap](docs/Roadmap.md)** — phase history and forward milestones
+- **[CHANGELOG](CHANGELOG.md)** — full engineering history, every phase
+- **[CONTRIBUTING](CONTRIBUTING.md)** — workflow and contribution guidelines
 
-## What This Repository Does Not Contain
+---
 
-- private CORE source code
-- training implementation
-- model weights or checkpoints
-- proprietary data pipelines
-- curriculum generation internals
-- benchmark generator logic
-- private evaluation traces
-- implementation-level architecture diagrams
-- patent-sensitive mechanisms
+## How to Follow This Project
 
-## Public Disclosure Boundary
+This public repository is the **architecture and documentation mirror** of CORE. The core implementation is maintained privately while a provisional patent is pursued.
 
-This repository is a controlled public disclosure surface. It is designed to communicate evidence and direction without teaching reproduction of the underlying invention.
+- Watch this repo for documentation updates, benchmark releases, and roadmap progress.
+- Open an issue to ask questions about the architecture, request a whitepaper review copy, or propose collaboration.
+- Credentialed reviewers (grant committees, academic collaborators) may request access to the full Whitepaper and Yellowpaper via the contact in [SECURITY.md](SECURITY.md).
 
-Before publishing any material here, classify it using the disclosure labels in [docs/04_ip_boundary.md](docs/04_ip_boundary.md):
-
-- `PUBLIC_OK`
-- `PUBLIC_SUMMARY_ONLY`
-- `CONFIDENTIAL_CORE`
-- `PATENT_REVIEW_REQUIRED`
-- `TRADE_SECRET`
-
-When in doubt, do not publish. Summarize at a higher level or hold for legal/IP review.
-
-## Documentation Index
-
-Start here:
-
-- [Documentation Index](docs/INDEX.md)
-- [Problem Statement](docs/01_problem.md)
-- [Evaluation Philosophy](docs/02_evaluation_philosophy.md)
-- [Public Claims](docs/03_public_claims.md)
-- [IP Boundary and Disclosure Policy](docs/04_ip_boundary.md)
-- [Results Template](docs/05_results_template.md)
-- [May 8, 2026 Progress Update](docs/07_2026_05_08_progress_update.md)
-- [CORE Structural Articulation and Consistency Evidence — 2026-05-08](reports/CORE_Structural_Articulation_and_Consistency_2026_05_08.md)
-- [CORE Semantic Polarity and Synonym Stability Evidence — 2026-05-08](reports/CORE_Semantic_Polarity_and_Synonym_Stability_Evidence_2026_05_08.md)
-- [Trait Configuration Examples](docs/08_trait_configuration_examples.md)
-- [CORE Curriculum Roadmap](docs/09_curriculum_roadmap.md)
-- [Learning Readiness Evidence Summary — 2026-05-06](reports/CORE_Learning_Readiness_Evidence_2026_05_06.md)
-
-## Public Communication Principle
-
-Truthful excitement without enabling reproduction.
-
-CORE should be presented with technical seriousness, sober claims, and clear limits. The goal is not hype. The goal is to make the project legible, promising, and evidence-driven while preserving the private engine.
-
-## Contact
-
-For serious technical, investment, or collaboration inquiries, contact AssetOverflow through GitHub or the official channels associated with this project.
+> "We have mistaken inherited abstractions for reality. CORE is the architecture to find the shape of thought."
