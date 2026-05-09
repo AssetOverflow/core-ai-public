@@ -60,6 +60,17 @@ None of these components have yet been evaluated on general tasks. They represen
 
 ---
 
+## Recent Progress
+
+Recent private prototype work has locally verified a first conversational response path with structured evidence generation. Public documentation is being updated to reflect progress while preserving IP-sensitive implementation details.
+
+- [May 9, 2026 Progress Update](docs/10_2026_05_09_progress_update.md)
+- [Conversational Runtime Milestone](docs/progress/CONVERSATIONAL_RUNTIME_MILESTONE.md)
+- [Evidence and Traceability](docs/progress/EVIDENCE_AND_TRACEABILITY.md)
+- [CORE Chat Runtime and Memory Stability Evidence — 2026-05-09](reports/CORE_Chat_Runtime_and_Memory_Stability_2026_05_09.md)
+
+---
+
 ## Follow This Project
 
 - Watch this repo for status updates and documentation releases.

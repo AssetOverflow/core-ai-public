@@ -9,13 +9,17 @@ This directory contains the public, non-enabling documentation for CORE.
 3. [Public Claims](03_public_claims.md)
 4. [IP Boundary and Disclosure Policy](04_ip_boundary.md)
 5. [Results Template](05_results_template.md)
-6. [May 8, 2026 Progress Update](07_2026_05_08_progress_update.md)
-7. [May 6, 2026 Progress Update](06_2026_05_06_progress_update.md)
+6. [May 9, 2026 Progress Update](10_2026_05_09_progress_update.md)
+7. [Conversational Runtime Milestone](progress/CONVERSATIONAL_RUNTIME_MILESTONE.md)
+8. [Evidence and Traceability](progress/EVIDENCE_AND_TRACEABILITY.md)
+9. [May 8, 2026 Progress Update](07_2026_05_08_progress_update.md)
+10. [May 6, 2026 Progress Update](06_2026_05_06_progress_update.md)
 
 ## Additional Areas
 
 - [Benchmark Area](../benchmarks/README.md)
 - [Public Technical Brief](../reports/CORE_Public_Technical_Brief_v0.1.md)
+- [CORE Chat Runtime and Memory Stability Evidence — 2026-05-09](../reports/CORE_Chat_Runtime_and_Memory_Stability_2026_05_09.md)
 - [CORE Structural Articulation and Consistency Evidence — 2026-05-08](../reports/CORE_Structural_Articulation_and_Consistency_2026_05_08.md)
 - [CORE Semantic Polarity and Synonym Stability Evidence — 2026-05-08](../reports/CORE_Semantic_Polarity_and_Synonym_Stability_Evidence_2026_05_08.md)
 - [Trait Configuration Examples](08_trait_configuration_examples.md)
@@ -25,7 +29,7 @@ This directory contains the public, non-enabling documentation for CORE.
 
 ## Reading Order
 
-Read the documents in numerical order. The first three define what CORE publicly claims and why it matters. The fourth defines what must not be disclosed here. The fifth defines how benchmark results should be summarized without exposing proprietary mechanisms. The sixth and seventh record the latest public-safe progress updates.
+Read the documents in numerical order. The first three define what CORE publicly claims and why it matters. The fourth defines what must not be disclosed here. The fifth defines how benchmark results should be summarized without exposing proprietary mechanisms. The remaining documents record the latest public-safe progress updates and engineering evidence.
 
 ## Boundary Reminder
 
