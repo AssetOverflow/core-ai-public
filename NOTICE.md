@@ -1,19 +1,21 @@
 # Notice
 
-This repository is a public documentation and evidence surface for CORE.
+This repository is the public project surface for CORE.
 
-It does not contain the private CORE implementation, model weights, training logic, benchmark generators, proprietary curriculum construction, private traces, or patent-sensitive mechanisms.
+It does not contain the private CORE implementation, model weights, training logic, benchmark methodology, proprietary curriculum materials, or any patent-sensitive content.
 
-All public materials are provided for informational and evaluation-context purposes only.
+All public materials are provided for informational and evaluation purposes only.
+
+---
 
 ## Intellectual Property Boundary
 
-Some CORE-related materials may be protected as trade secrets, confidential know-how, future patent filings, copyright-protected works, or other intellectual property.
+CORE-related materials may be protected as trade secrets, confidential know-how, pending patent filings, copyright-protected works, or other intellectual property.
 
-Nothing in this repository grants rights to private CORE technology, unpublished systems, internal benchmark generators, private datasets, model weights, or confidential documentation.
+Nothing in this repository grants any rights to private CORE technology, unpublished systems, internal tooling, private datasets, model weights, or confidential documentation.
 
-## Public Disclosure Discipline
+---
 
-Every contribution should follow [docs/04_ip_boundary.md](docs/04_ip_boundary.md).
+## Public Disclosure Policy
 
-Do not publish implementation-enabling material here.
+Do not publish implementation-enabling material in this repository. When in doubt, open an issue before contributing.

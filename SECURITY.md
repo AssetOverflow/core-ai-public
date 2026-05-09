@@ -2,27 +2,23 @@
 
 ## Implementation Repository
 
-The core implementation of CORE (Continuous Orthogonal Resonance Engine) is maintained in a **private repository**. This public repository contains architecture documentation, benchmark descriptions, and project narrative only.
+The CORE implementation is maintained in a private repository pending patent filing.
 
-No source code, operator implementations, manifold metric definitions, field propagation logic, correction mechanism internals, vault storage logic, or training corpus artifacts are present in this repository.
+This public repository contains only project status, governance documents, and contribution guidelines. It does not contain source code, architectural specifications, mathematical foundations, operator definitions, training logic, benchmark methodology, or any implementation detail.
 
 ---
 
 ## Security Disclosures
 
-If you discover a security issue related to any published CORE infrastructure, documentation, or tooling, please disclose it responsibly:
+If you discover a security issue related to any published CORE infrastructure or documentation, please disclose it responsibly.
 
-**Contact:** Open a GitHub Issue marked `[SECURITY]` for non-sensitive disclosures, or reach out via the AssetOverflow GitHub organization profile for sensitive matters requiring private communication.
+**Contact:** Open a GitHub Issue marked `[SECURITY]` for non-sensitive matters, or reach out via the AssetOverflow GitHub organization profile for matters requiring private communication.
 
 ---
 
-## Full Technical Review
+## Technical Review Requests
 
-The full Whitepaper and Yellowpaper (including mathematical foundations) are available to credentialed reviewers upon request. This includes:
-
-- Grant committee reviewers (Emergent Ventures, LTFF, and similar)
-- Academic collaborators with an NDA or institutional affiliation
-- Patent examiners and IP counsel
+Technical documentation is available to credentialed reviewers upon request. This includes grant committee reviewers, academic collaborators, and IP counsel.
 
 To request a review copy, open an issue with the subject `[REVIEW REQUEST]` and a brief description of your institutional context.
 
@@ -30,6 +26,6 @@ To request a review copy, open an issue with the subject `[REVIEW REQUEST]` and 
 
 ## Intellectual Property
 
-The CORE architecture, including its three-manifold memory hierarchy, Clifford multivector propagation paradigm, dual-correction operator design, and Cognitive Apprenticeship curriculum framework, is the subject of an active provisional patent filing.
+The CORE architecture is the subject of a pending patent filing.
 
-All rights reserved. No portion of the private implementation may be reproduced, reverse-engineered, or derived from without explicit written permission.
+All rights reserved. No portion of the private implementation may be reproduced, reverse-engineered, or derived from without explicit written permission from AssetOverflow.
