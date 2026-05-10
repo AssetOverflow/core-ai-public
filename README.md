@@ -62,12 +62,14 @@ None of these components have yet been evaluated on general tasks. They represen
 
 ## Recent Progress
 
-### Current Private Prototype Status
+### Controlled Correction-Pressure Path
 
-Recent private development has verified a focused conversational quality milestone. The private prototype can generate bounded conversational responses, emit public-safe evidence metadata, run deterministic response-quality checks, preserve timestamped quality reports, and extract reviewable correction candidates from failed checks.
+Recent private proof work advanced CORE’s chat runtime from isolated correction-pressure experiments into an optional, controlled runtime provider path.
 
-The latest internal milestone run passed the focused quality gate. Public documentation intentionally omits implementation details, internal schemas, runtime identifiers, source code, and patent-sensitive mechanisms.
+The newly verified path separates durable reviewed-correction storage, relevance/topology selection, admission control, and runtime consumption. This keeps correction pressure bounded, auditable, and opt-in.
 
+- [M-CHAT Progress Update](docs/progress/M_CHAT_PROGRESS_UPDATE.md)
+- [Controlled Correction-Pressure Architecture](docs/architecture/CONTROLLED_CORRECTION_PRESSURE.md)
 - [Conversational Quality Milestone](docs/progress/M_CHAT_QUALITY_MILESTONE.md)
 - [Evidence and Verification Posture](docs/progress/EVIDENCE_AND_VERIFICATION_POSTURE.md)
 - [Safe Observability and Review Boundary](docs/progress/SAFE_OBSERVABILITY_AND_REVIEW_BOUNDARY.md)
