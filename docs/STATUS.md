@@ -12,6 +12,7 @@ Public documentation intentionally omits implementation details, internal schema
 
 | Date | Milestone | Status | Posture |
 |---|---|---|---|
+| 2026-05-10 | Controlled Correction-Pressure Path | **PASS** | Locally Verified Prototype |
 | 2026-05-09 | Conversational Quality Gate | **PASS** | Locally Verified Prototype |
 | 2026-05-09 | Conversational Runtime Milestone | **PASSED** | Locally Verified Prototype |
 | 2026-05-08 | Structural Articulation Audit | **HARDENING** | Rigorous Invariant Audit |
