@@ -62,11 +62,23 @@ None of these components have yet been evaluated on general tasks. They represen
 
 ## Recent Progress
 
-### Controlled Correction-Pressure Path
+### Latest Private Proof Progress
 
-Recent private proof work advanced CORE’s chat runtime from isolated correction-pressure experiments into an optional, controlled runtime provider path.
+Recent private proof work advanced CORE’s controlled correction-pressure pathway.
 
-The newly verified path separates durable reviewed-correction storage, relevance/topology selection, admission control, and runtime consumption. This keeps correction pressure bounded, auditable, and opt-in.
+The newly verified path separates durable reviewed-record storage, relevance/topology-based selection, runtime admission control, and optional runtime consumption. This keeps correction pressure bounded, auditable, and opt-in.
+
+Safety boundaries remain central:
+- no default enablement
+- no automatic promotion of failed outputs
+- no raw failed output used as runtime context
+- selected records must pass admission before becoming runtime pressure
+- public audit summaries avoid private payload disclosure
+
+Latest private verification:
+- focused proof bundle passed in NumPy mode
+- focused proof bundle passed in Apple Silicon MLX mode
+- runtime correction-provider proof passed in both backend lanes
 
 - [M-CHAT Progress Update](docs/progress/M_CHAT_PROGRESS_UPDATE.md)
 - [Controlled Correction-Pressure Architecture](docs/architecture/CONTROLLED_CORRECTION_PRESSURE.md)
