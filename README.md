@@ -20,7 +20,7 @@ The work is early-stage. The foundation has been established and is under active
 
 ## Development Status
 
-CORE is in active early-to-mid development. Foundational architectural components have been designed and implemented. The system is not yet a trained model and has not yet demonstrated end-to-end capability.
+CORE is in active early-to-mid development. Foundational architectural components have been designed and implemented. The system remains early-stage and is not yet a publicly available trained model or product. Private proof work has advanced, but no public general-capability claim is made here.
 
 | Phase | Status |
 |---|---|
@@ -62,11 +62,19 @@ None of these components have yet been evaluated on general tasks. They represen
 
 ## Recent Progress
 
+### May 11, 2026 Private Progress Update
+
+Recent private engineering advanced CORE across runtime proofing, structured memory verification, governance boundary reinforcement, public-safe observability, output traceability, and CORE-CA apprenticeship infrastructure.
+
+The work remains non-public and non-enabling. No private source code, training logic, schemas, traces, benchmark methods, or implementation details are disclosed.
+
+- [CORE Private Progress Update — May 11, 2026](docs/progress/CORE_PRIVATE_PROGRESS_UPDATE_2026_05_11.md)
+
 ### Latest Private Proof Progress
 
-Recent private proof work advanced CORE’s controlled correction-pressure pathway.
+Recent private proof work advanced CORE’s structured operational feedback pathways.
 
-The newly verified path separates durable reviewed-record storage, relevance/topology-based selection, runtime admission control, and optional runtime consumption. This keeps correction pressure bounded, auditable, and opt-in.
+The newly verified path separates persistent record management, context-based selection, runtime access control, and optional runtime utilization. This keeps operational influence contained, auditable, and opt-in.
 
 Safety boundaries remain central:
 - no default enablement
