@@ -62,6 +62,14 @@ None of these components have yet been evaluated on general tasks. They represen
 
 ## Recent Progress
 
+### May 16, 2026 Private Progress Update
+
+Recent private engineering advanced CORE across the cognitive turn pipeline, deterministic output identity, evaluation harness expansion, the reviewed teaching loop, identity boundary verification, and multi-backend proof stability.
+
+The work remains non-public and non-enabling. No private source code, training logic, schemas, traces, benchmark methods, or implementation details are disclosed.
+
+- [CORE Private Progress Update — May 16, 2026](docs/progress/CORE_PRIVATE_PROGRESS_UPDATE_2026_05_16.md)
+
 ### May 11, 2026 Private Progress Update
 
 Recent private engineering advanced CORE across runtime proofing, structured memory verification, governance boundary reinforcement, public-safe observability, output traceability, and CORE-CA apprenticeship infrastructure.
@@ -72,7 +80,7 @@ The work remains non-public and non-enabling. No private source code, training l
 
 ### Latest Private Proof Progress
 
-Recent private proof work advanced CORE’s structured operational feedback pathways.
+Recent private proof work advanced CORE's structured operational feedback pathways.
 
 The newly verified path separates persistent record management, context-based selection, runtime access control, and optional runtime utilization. This keeps operational influence contained, auditable, and opt-in.
 
