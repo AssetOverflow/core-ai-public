@@ -72,7 +72,7 @@ The work remains non-public and non-enabling. No private source code, training l
 
 ### May 11, 2026 Private Progress Update
 
-Recent private engineering advanced CORE across runtime proofing, structured memory verification, governance boundary reinforcement, public-safe observability, output traceability, and CORE-CA apprenticeship infrastructure.
+Recent private engineering advanced CORE across runtime proofing, structured memory verification, governance boundary reinforcement, public-safe observability, and output traceability.
 
 The work remains non-public and non-enabling. No private source code, training logic, schemas, traces, benchmark methods, or implementation details are disclosed.
 

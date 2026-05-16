@@ -6,7 +6,7 @@ This update summarizes public-safe progress from the private CORE engineering re
 
 ## Summary
 
-Recent private engineering work advanced CORE across runtime proofing, structured memory verification, observability, functional governance boundaries, and the CORE-CA apprenticeship platform.
+Recent private engineering work advanced CORE across runtime proofing, structured memory verification, observability, and functional governance boundaries.
 
 The work remains early-stage engineering infrastructure. It does not represent a public demo, a trained general model, or a completed commercial product.
 
@@ -25,7 +25,7 @@ Public-safe characterization:
 
 ### Memory Verification and Controlled Influence
 
-Memory verification pathways were further integrated and tested as a controlled operational influence rather than unvetted state changes. This work improves the system’s ability to utilize verified information without allowing automatic state mutation, unsafe promotion, or unreviewed durable learning.
+Memory verification pathways were further integrated and tested as a controlled operational influence rather than unvetted state changes. This work improves the system's ability to utilize verified information without allowing automatic state mutation, unsafe promotion, or unreviewed durable learning.
 
 Public-safe characterization:
 
@@ -36,13 +36,13 @@ Public-safe characterization:
 
 ### Governance Boundary Reinforcement
 
-The private implementation clarified and reinforced the separation between active state management, persistent records, and apprenticeship/training surfaces. This reduces architectural drift and helps preserve clean governance boundaries as the system becomes more capable.
+The private implementation clarified and reinforced the separation between active state management, persistent records, and training surfaces. This reduces architectural drift and helps preserve clean governance boundaries as the system becomes more capable.
 
 Public-safe characterization:
 
 - governance boundaries were clarified
 - persistent records remain separate from runtime governance
-- training/apprenticeship surfaces do not own active state management
+- training surfaces do not own active state management
 - regression checks were added around these boundaries
 
 ### Public-Safe Analytics and Observability
@@ -58,7 +58,7 @@ Public-safe characterization:
 
 ### Output Traceability
 
-The runtime’s generation path gained stronger public-safe traceability. This improves auditability of output generation while preserving private mechanisms and avoiding disclosure of internal selection details.
+The runtime's generation path gained stronger public-safe traceability. This improves auditability of output generation while preserving private mechanisms and avoiding disclosure of internal selection details.
 
 Public-safe characterization:
 
@@ -66,22 +66,11 @@ Public-safe characterization:
 - public traces remain sanitized
 - private selection logic and internal mechanisms remain undisclosed
 
-### CORE-CA Apprenticeship Platform
-
-CORE-CA advanced toward a structured apprenticeship platform for future model training and evaluation. The private work establishes a more disciplined path for authored learning, evaluation, discrepancy resolution, verification emission, and systemic maturity tracking.
-
-Public-safe characterization:
-
-- CORE-CA is moving from loose curriculum scaffolding toward structured apprenticeship workflows
-- training remains gated and verification-oriented
-- evaluation and discrepancy resolution concepts are represented at a high level only
-- no private curriculum formats, training logic, examples, or schemas are disclosed
-
 ## Current Status
 
-CORE remains in active early-to-mid development. The private system now has stronger proofing, observability, memory verification controls, and apprenticeship infrastructure than reflected in the previous public update.
+CORE remains in active early-to-mid development. The private system now has stronger proofing, observability, and memory verification controls than reflected in the previous public update.
 
-However, public claims should remain conservative:
+Public claims remain conservative:
 
 - no public demo is available
 - no general benchmark claims are being published here
@@ -110,6 +99,5 @@ Future public updates may include sanitized summaries of:
 
 - expanded runtime proof coverage
 - aggregate verification posture
-- high-level CORE-CA readiness progress
 - public-safe observability improvements
 - benchmark-family-level summaries after review
